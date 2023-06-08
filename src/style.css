@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    background-color: rgb(206, 210, 213);
+}
+
+
+.background {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/53b839afe4b07ea978436183/1daa9086-0f1d-4d65-86b5-4a15a36d08d4/traditional-food-around-the-world-Travlinmad.jpg?format=1000w');
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.Categories {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(173, 176, 178);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.Menu {
+    flex: 3;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0px
+}
+
+.categoryCard {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 220px;
+    background-color: rgb(206, 210, 213);
+    border-radius: 20px;
+}
+
+.dishCard {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 250px;
+}
